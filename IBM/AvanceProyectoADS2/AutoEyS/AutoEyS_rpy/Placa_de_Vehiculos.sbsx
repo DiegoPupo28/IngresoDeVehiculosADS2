@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 469454f7-ceac-4578-be6f-d2952b22116c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Placa_de_Vehiculos</_name>
+			<_modifiedTimeWeak type="a">3.1.2021::22:56:27</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\MA.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">Dia. de Arquitectura de Analisis</_hname>
+					<_hid type="a">GUID 5b889f4e-49f9-4153-8100-a0c2953244ad</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">3.1.2021::22:56:27</_modifiedTime>
+			<weakCGTime type="a">3.1.2021::22:56:27</weakCGTime>
+			<strongCGTime type="a">3.1.2021::22:52:25</strongCGTime>
+			<_defaultComposite type="s">GUID da99f51e-28e4-41a3-80ed-43075b21fc3f</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">12.31.1969::19:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID da99f51e-28e4-41a3-80ed-43075b21fc3f</value>
+				<value>GUID b904b1ec-86c8-42b0-b5c7-8e30e7a6c680</value>
+				<value>GUID 45f8f9df-f417-4b00-a8fe-3614cd771ef6</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID da99f51e-28e4-41a3-80ed-43075b21fc3f</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IUseCase type="e">
+			<_id type="a">GUID b904b1ec-86c8-42b0-b5c7-8e30e7a6c680</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Buscar Placa del vehiculo</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2021::22:56:7</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		<IUseCase type="e">
+			<_id type="a">GUID 45f8f9df-f417-4b00-a8fe-3614cd771ef6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Registrar Placa del Vehiculo</_name>
+			<_modifiedTimeWeak type="a">3.1.2021::22:39:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2021::22:56:27</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">3.1.2021::22:39:17</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID a25e2566-ae84-4e3a-819f-3ce31f1f47b7</value>
+				<value>GUID 1b2d7764-40d3-406a-9928-25f1d976ead4</value>
+			</AggregatesList>
+		</IUseCase>
+		<IDependency type="e">
+			<_id type="a">GUID a25e2566-ae84-4e3a-819f-3ce31f1f47b7</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">Generar Codigo de Barra</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">extend</_hname>
+							<_hid type="a">GUID 17ef9a30-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.1.2021::22:36:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2021::22:56:27</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Generar Codigo de Barra</_hname>
+					<_hid type="a">GUID 0a09b09d-805e-4623-9a4e-11fa39388840</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 45f8f9df-f417-4b00-a8fe-3614cd771ef6</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 1b2d7764-40d3-406a-9928-25f1d976ead4</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">Registrar Entrada</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">extend</_hname>
+							<_hid type="a">GUID 17ef9a30-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.1.2021::22:39:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2021::22:56:27</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Registrar Entrada</_hname>
+					<_hid type="a">GUID 999ce1ea-28fe-4b80-a845-f5ceb60d6aea</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 45f8f9df-f417-4b00-a8fe-3614cd771ef6</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

@@ -1,0 +1,16 @@
+2021-03-01 11:44:27.183-05:00 DESKTOP-EMLPBGH CRRHP0010I File fake 
+ Error (line 2) - Attempt to read a token past end of file
+
+
+2021-03-01 11:44:27.183-05:00 DESKTOP-EMLPBGH CRRHP0010I File fake 
+ Error (line 2) - Attempt to read a token past end of file
+
+
+2021-03-01 11:44:27.183-05:00 DESKTOP-EMLPBGH CRRHP0010I File fake 
+ Error (line 2) - Missing start object token ({)
+
+
+2021-03-01 12:03:49.871-05:00 DESKTOP-EMLPBGH CRRHP0010I Class named CI_MenuPrincipal already exists in Package MA::Salida. Set the name anyway?
+
+2021-03-01 12:04:28.277-05:00 DESKTOP-EMLPBGH CRRHP0010I Class named CE_VEHICULO already exists in Package MA::Estacionamiento. Set the name anyway?
+

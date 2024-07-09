@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID a49ea441-561c-4b4e-8f67-a6b9dd4694b4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Entrada</_name>
+			<_modifiedTimeWeak type="a">3.1.2021::22:56:24</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\MA.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">Dia. de Arquitectura de Analisis</_hname>
+					<_hid type="a">GUID 5b889f4e-49f9-4153-8100-a0c2953244ad</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">3.1.2021::22:56:24</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">3.1.2021::22:56:24</weakCGTime>
+			<strongCGTime type="a">3.1.2021::22:55:2</strongCGTime>
+			<_defaultComposite type="s">GUID c457d1e7-fc8b-4626-b0dd-5c719d649b2c</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">12.31.1969::19:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID a23c2b31-ab37-48ed-a9b4-7631ef7ee53b</value>
+				<value>GUID 6a4540e8-8ed6-4958-a9ec-964ea57d028a</value>
+				<value>GUID c457d1e7-fc8b-4626-b0dd-5c719d649b2c</value>
+				<value>GUID 27aeba2e-a4a3-4285-bcc4-bb7fb1f9eba3</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IDependency type="e">
+			<_id type="a">GUID a23c2b31-ab37-48ed-a9b4-7631ef7ee53b</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Conductor</_name>
+			<_modifiedTimeWeak type="a">3.1.2021::22:54:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2021::22:54:57</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hfilename type="a">.\Conductor.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">Conductor</_hname>
+					<_hid type="a">GUID 67b578dc-51b2-46c6-a09c-43786becc516</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID a49ea441-561c-4b4e-8f67-a6b9dd4694b4</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 6a4540e8-8ed6-4958-a9ec-964ea57d028a</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Placa_de_Vehiculos</_name>
+			<_modifiedTimeWeak type="a">3.1.2021::22:55:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2021::22:55:2</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hfilename type="a">.\Placa_de_Vehiculos.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">Placa_de_Vehiculos</_hname>
+					<_hid type="a">GUID 469454f7-ceac-4578-be6f-d2952b22116c</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID a49ea441-561c-4b4e-8f67-a6b9dd4694b4</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IClass type="e">
+			<_id type="a">GUID c457d1e7-fc8b-4626-b0dd-5c719d649b2c</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IUseCase type="e">
+			<_id type="a">GUID 27aeba2e-a4a3-4285-bcc4-bb7fb1f9eba3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Registrar Entrada</_name>
+			<_modifiedTimeWeak type="a">3.1.2021::22:43:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2021::22:56:24</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">3.1.2021::22:43:6</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID 4144ecad-16e5-441e-96b8-a9e5c816d40f</value>
+				<value>GUID 8da565f0-2930-4c3c-b24c-47838aa96c53</value>
+				<value>GUID e3b7ae4c-9928-40db-be0f-99074ee747be</value>
+			</AggregatesList>
+		</IUseCase>
+		<IDependency type="e">
+			<_id type="a">GUID 4144ecad-16e5-441e-96b8-a9e5c816d40f</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">Registrar Conductor</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.1.2021::22:43:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2021::22:56:24</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Registrar Conductor</_hname>
+					<_hid type="a">GUID 03866fb5-f9ad-4ff0-81f9-58446d0e9962</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 27aeba2e-a4a3-4285-bcc4-bb7fb1f9eba3</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 8da565f0-2930-4c3c-b24c-47838aa96c53</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">Registrar Placa del Vehiculo</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.1.2021::22:43:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2021::22:56:24</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Registrar Placa del Vehiculo</_hname>
+					<_hid type="a">GUID 6e439157-4ce0-4cd2-9c38-77a63d64f285</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 27aeba2e-a4a3-4285-bcc4-bb7fb1f9eba3</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID e3b7ae4c-9928-40db-be0f-99074ee747be</_id>
+			<_myState type="a">10240</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">itsVigilante</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.1.2021::22:54:37</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Vigilante</_hname>
+					<_hid type="a">GUID 0c37f41a-79dc-4f99-ab7a-17d6cea84358</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">NonNavigable</_navigability>
+		</IAssociationEnd>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
